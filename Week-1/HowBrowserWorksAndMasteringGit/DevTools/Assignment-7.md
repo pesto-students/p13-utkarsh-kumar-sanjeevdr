@@ -1,21 +1,36 @@
-# Pesto Assignments
+# Pesto Assignments - 7
 
-Welcome to Pesto assignments.
+### Situation: You want to inspect the HTML and CSS code of a webpage.
+### Question: Which panel in Chrome DevTools should you use to inspect the DOM and CSS of a webpage?
+To inspect the DOM we need use Elements panel and for CSS we have to use Styles panel.
+
+### Situation: You suspect that a particular JavaScript function is causing errors on a webpage.
+### Question: Which panel in Chrome DevTools should you use to debug the JavaScript code on a webpage?
+Sources panel can be used to debug the JavaScript code.
+
+### Situation: You want to analyze the network traffic of a webpage and find out which requests are taking the longest time to load.
+### Question: Which panel in Chrome DevTools should you use to analyze the network requests and responses of a webpage?
+Network panel can be used to find out which requests are taking the longest time to load.
+
+### Situation: You want to inspect and manipulate browser storage, such as cookies and local storage.
+### Question: Which panel in Chrome DevTools should you use to inspect and manipulate browser storage on a webpage?
+Application panel can be used to inspect and manipulate browser storage on a webpage.
+
+### Situation: You want to optimize the performance of a webpage and identify potential bottlenecks.
+### Question: Which panel in Chrome DevTools should you use to analyze the performance of a webpage and identify potential bottlenecks?
+Performance panel can be used to analyze the performance of a webpage and bottlenecks.
+
+### Situation: You want to test the security of a webpage and check if it has any vulnerabilities.
+### Question: Which panel in Chrome DevTools should you use to analyze the security of a webpage and identify potential vulnerabilities?
+Security panel can be used to analyze the security of a webpage.
+
+### Situation: You want to view and modify the CSS styles of a webpage in real-time.
+### Question: Which panel in Chrome DevTools should you use to view and modify the CSS styles of a webpage in real-time?
+Styles panel under Elements panel can be used to modify styles in real-time.
+
+### Situation: You want to test how a webpage looks and behaves on different screen sizes.
+### Question: Which panel in Chrome DevTools should you use to test the responsiveness of a webpage on different screen sizes?
+Toggle device toolbar button can be used to test the responsiveness of a webpage on different screen sizes.
 
 
-## How to solve assignments
 
-Weekly Assignments will be shared by your mentor or instructor.
-
-Make sure master or main branch is protected and you are not able to push any code directly to master.
-
-- Clone this repo to your local.
-- Checkout to new branch for submission. Suggestion you can name new branch week wise - branch for week 1 assignment can be week1
-```bash
-git checkout -b week1
-```
-- Create Assignment week folder in root directory(if it doesn't exist) for eg. for solving week 1 assignment create folder with name "week1".
-- You can create subfolders in main week(week1) folder if required.
-- Add proper readme [(How to Write proper readme](https://meakaakka.medium.com/a-beginners-guide-to-writing-a-kickass-readme-7ac01da88ab3) )in week's folder or subfolder explaining about assignment, how to run assignment and any other instructions. 
-- Raise a PR against master and add your mentor as reviewer
-- Resolve PR comments if any and once your mentor approves your PR, Merge it.
