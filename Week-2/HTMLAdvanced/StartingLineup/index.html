@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<style>
+    #status {
+        display: flex;
+        flex-direction: row;
+    }
+</style>
+
+<body>
+
+    <h2>Starting Lineup</h2>
+
+    <form action="" method="post" id="usrform">
+        <p id="status">
+        <fieldset>
+            <legend>Status:</legend>
+              <input type="radio" id="draft" name="status" value="draft">
+              <label for="draft">Draft</label>
+              <input type="radio" id="final" name="status" checked value="final">
+              <label for="final">Final</label>
+        </fieldset>
+        </p>
+        <p id="date">
+            <label for="gameDate">Date:</label>
+            <select name="gameDate" id="gameDate">
+                <option value="march20">March 20</option>
+                <option value="march20">March 24</option>
+                <option value="april2">April 2</option>
+                <option value="april6">April 6</option>
+                <option value="april13">April 13</option>
+            </select>
+        </p>
+        <p id="select">
+        <fieldset>
+            <legend>Players:</legend>
+            <input type="checkbox" id="player1" name="player" value="Aarav Agarwal">
+            <label for="player1"> Aarav Agarwal</label><br>
+            <input type="checkbox" id="player2" name="player" value="Ava Johnson">
+            <label for="player2"> Ava Johnson</label><br>
+            <input type="checkbox" id="player3" name="player" value="Julio Ortiz">
+            <label for="player3"> Julio Ortiz</label><br>
+            <input type="checkbox" id="player4" name="player" value="Liam Rubio">
+            <label for="player4"> Liam Rubio</label><br>
+            <input type="checkbox" id="player5" name="player" value="Emma Witherspoon">
+            <label for="player5"> Emma Witherspoon</label>
+        </fieldset>
+        </p>
+        <p id="submit">
+            <input type="submit" value="Submit">
+        </p>
+    </form>
+
+</body>
+
+</html>
