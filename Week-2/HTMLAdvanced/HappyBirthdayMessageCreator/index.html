@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<style>
+    div {
+        margin: 10px 10px;
+    }
+
+    div>label {
+        display: inline-block;
+        width: 150px;
+    }
+</style>
+
+<body>
+
+    <h2>Happy Birthday Message Creator</h2>
+
+    <form action="" method="post" enctype="multipart/form-data" id="usrform">
+        <div>
+            <label for="fullName">Message?:</label>
+            <input type="text" id="fullName" name="fullName" value="Happy birthday!" required>
+        </div>
+        <div>
+            <label for="email">Email address?:</label>
+            <input type="email" id="email" name="email" placeholder="name@domain.com"  pattern="[a-zA-Z0-9-_.]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0- 9-]+)*" required>
+        </div>
+        <div>
+            <label for="date">Date to send?:</label>
+            <input type="date" id="date" name="date" required>
+        </div>
+        <div>
+            <label for="color">Message color?:</label>
+            <input type="color" id="color" name="color" required>
+        </div>
+        <div>
+            <label for="blinks">Number of blinks?:</label>
+            <input type="number" id="blinks" name="blinks" value="0" min="0" max="10" required>
+        </div>
+        <div>
+            <label for="volume">Music volume?:</label>
+            <input type="range" id="volume" name="volume" value="20" min="0" max="50" required>
+        </div>        
+        <div>
+            <input type="submit" value="Send Birthday Message">
+        </div>
+    </form>
+
+</body>
+
+</html>
