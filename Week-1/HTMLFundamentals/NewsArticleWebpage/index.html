@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        div {
+            margin: 10px 10px;
+        }
+        
+    </style>
+<body>
+
+    <h2>Enter personal information for joining a social network</h2>
+
+    <form action="" method="post" enctype="multipart/form-data" id="usrform">
+        <div>
+            <label for="fullName">Full name:</label><br>
+            <input type="text" id="fullName" name="fullName" value="Sanjeev" required>
+        </div>        
+        <div>
+            <label for="email">Enter your email:</label><br>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div>
+            <label for="about">About:</label><br>
+            <textarea rows="3" cols="50" id="about" name="about" form="usrform">
+Enter text here...</textarea>
+        </div>
+        <div>
+            <label for="picture">Select a picture:</label><br>
+            <input type="file" id="picture" name="picture">
+        </div>
+        <div>
+            <input type="submit" value="Submit">
+        </div>
+    </form>
+
+</body>
+
+</html>
