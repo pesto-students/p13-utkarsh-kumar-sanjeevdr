@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        nav {
+            height: 50px;
+            background-color: aqua;            
+        }
+        nav > a{
+            line-height: 50px;
+            margin: 5px 5px;
+        }
+        div {
+            margin: 10px 10px;
+        }
+
+        div > label{
+            display: inline-block;
+            width: 100px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Restaurant Reviews</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="addreview.html">Add Review</a>
+            <a href="about.html">About</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Add Review</h2>
+
+        <form action="" method="post" id="usrform">
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div id="date">
+                <label for="restaurant">Restaurant:</label>
+                <select name="restaurant" id="restaurant">
+                    <option value="main street cafe">Main Street Cafe</option>
+                    <option value="greek house">Greek House</option>                    
+                </select>
+            </div>
+            <div>
+                <label for="date">Date to visit:</label>
+                <input type="date" id="date" name="date" required>
+            </div>
+            <div>
+                <label for="rating">Rating:</label>
+                <input type="number" id="rating" name="rating" required>
+            </div>
+            <div>
+                <label for="details">Details:</label>
+                <textarea rows="3" cols="50" id="details" name="details" >
+                    Enter text here...</textarea>
+            </div>
+            <div>
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+
+    </main>
+    <footer>
+        &copy; 2022 Restaurant Reviews
+    </footer>    
+</body>
+</html>
