@@ -1,0 +1,76 @@
+
+@font-face {
+    font-family: Roboto;
+    src: url(fonts/Roboto-Black.ttf);
+  }
+
+* {
+    font-family: Roboto, Helvetica, sans-serif;
+}
+
+
+body {    
+    width: 70%;
+    margin: auto;    
+  }
+
+.container {
+    margin: 5px;
+    font-size: 13px;      
+    border: 1px solid black;   
+    width: 826px; 
+}
+
+h1 {
+    font-size: 16px;
+    color: #444444;
+    text-align: center;
+}
+
+.offer {
+    display: inline-block;
+    width: 400px;
+    margin: 4px;    
+    text-align: center;
+    border: 1px solid #cccccc;
+}
+
+.offerTitle {
+    font-size: 14px;
+    color: #ffffff;
+    background-color: #00b3b3;
+    padding: 15px;
+}
+
+.offerContents {
+    padding: 20px;
+    background-color: #fafafa;
+}
+
+table {
+    width: 100%;
+    background-color: #ffffff;
+}
+
+th {
+    font-size: 12px ;
+    font-weight: bold;
+    color: #777777;
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+td {
+    font-size: 12px ;
+    font-weight: lighter;
+    color: #444444;
+    padding: 20px 10px;
+    text-align: left;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+.finalValue {
+    font-weight: bold;
+    color: #2222ff;
+}
