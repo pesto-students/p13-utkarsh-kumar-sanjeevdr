@@ -1,0 +1,28 @@
+:root {
+   --table-color: forestgreen;
+   --row-bg-color: honeydew;
+   font-family: Calibri, Myriad;
+}
+
+body {    
+   width: 40%;   
+   margin: 60px auto;    
+ }
+
+#game-table {
+   border: 2px solid var(--table-color);
+   text-align: center;
+   width: 400px;
+   height: 200px;
+}
+
+table caption {
+   text-transform: uppercase;
+   color: white;
+   background-color: var(--table-color);
+   padding: 10px;
+}
+
+tr:nth-child(even) {
+   background-color: var(--row-bg-color);
+}
