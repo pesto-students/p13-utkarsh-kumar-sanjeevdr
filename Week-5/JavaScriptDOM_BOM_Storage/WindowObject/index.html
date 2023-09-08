@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function displayWindowProperties(){
+            const userAgent =  window.navigator.userAgent;
+            const scrnWidth =  window.screen.width;
+            const scrnHeight =  window.screen.height;
+            const url = window.location.href;
+            const path = window.location.pathname;
+            window.sessionStorage.setItem("lastname", "Donthi");
+            const lastName = window.sessionStorage.getItem("lastname"); 
+            window.localStorage.setItem("firstName", "Sanjeev");
+            const firstName = window.localStorage.getItem("firstName"); 
+            
+
+            console.log("User agent string : "+userAgent);
+            console.log("Screen width and height : "+scrnWidth+" : "+scrnHeight);
+            console.log("Current URL and path : "+url+" : "+path);
+            console.log("Data stored in sessionStorage and localStorage : "+lastName+" : "+firstName);
+        } 
+
+        displayWindowProperties();
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
